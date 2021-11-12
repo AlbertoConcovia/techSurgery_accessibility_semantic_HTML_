@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,9 +13,7 @@
 <body>
 
     <h1>Tech Returners Surgery</h1>
-    </br>
 
-    <!-- 3. see a Navbar that includes links  -->
     <nav>
         <ul>
             <li><a href="#">Home</a></li>
@@ -24,145 +23,99 @@
             <li><a href="#">Well-being Centre</a></li>
         </ul>
     </nav>
-    </br>  
 
-    <!-- 4. a search bar so I can search the site:  Search... -->
     <form>
         <label for="searchBar">Search...</label>
         <input type="search" id="searchBar" name="searchBar">
         <input type="submit">
     </form>
-    </br>
 
-    <!-- 7. text that says: -->
     <h2> Welcome to the Tech Returners Surgery! </h2>
-    </br>
 
-    <!-- 2. contain the contact number of the surgery so I can easily click on it and ring them: 0333 050 9138  -->
     <a href="tel:03330509138">Call us at 0333 050 9138</a>
-    </br>
-    </br>
 
-    <!-- 9. the surgery address. -->
     <address>
-        The Tech Returners Surgery,<br>
-        115 Mancunian Way,<br>
-        Manchester,<br>
-        UK,<br>
-        M20 3PX
+        <p>The Tech Returners Surgery,</p>
+        <p>115 Mancunian Way,</p>
+        <p>Manchester,</p>
+        <p>UK,</p>
+        <p>M20 3PX</p>
     </address>
-    </br>
-
-    <!-- 10. As a user I would like to see the surgery Opening Times:
-    Monday - Fridays: 8am - 7pm
-    Saturdays - Sundays: 10am - 4pm -->
+    
     <p>
-    Opening Times: <br>
-    Monday - Friday: <time>8am</time> to <time>7pm</time> <br>
-    Saturday - Sundays: <time>10am</time> to <time>4pm</time> <br>
+        Opening Times: <br>
+        Monday - Friday: <time>8am</time> to <time>7pm</time> <br>
+        Saturday - Sundays: <time>10am</time> to <time>4pm</time> <br>
     </p>
-    <br>
 
-
-    <!-- 8.  see an image of the surgery: -->
     <figure>
-        <img src="./img/techReturnersSurgery.png" alt="Tech Returners Surgery"  width="848" height="682"  >
+        <img src="./img/techReturnersSurgery.png" alt="Tech Returners Surgery" width="848" height="682">
         <figcaption>Fig.1 - Tech Returners Surgery Hospital.</figcaption>
     </figure>
-    </br>
 
-    <!-- 5. see updates about the surgery: -->
     <article>
         <h3>COVID RESTRICTION UPDATE</h3>
         <p>
-            Throughout the pandemic we have strove to make the surgery as safe as possible for all our patients and staff, we will continue to do so.</br>
+            Throughout the pandemic we have strove to make the surgery as safe as possible for all our patients and
+            staff, we will continue to do so.</br>
             </br>
-            From the 19TH JULY 2021 NOTHING WILL CHANGE AT THE SURGERY – Patients will still need to wear a mask, socially distance and use hand sanitiser in the surgery and staff will continue to wear PPE. </br>
+            From the 19TH JULY 2021 NOTHING WILL CHANGE AT THE SURGERY – Patients will still need to wear a mask,
+            socially distance and use hand sanitiser in the surgery and staff will continue to wear PPE. </br>
             </br>
             If you arrive without a mask and are not exempt, you will be asked to leave.
         </p>
     </article>
-    </br>
 
-    <!-- 6. links to navigate between different services: -->
-    <a href="#getHelpNow">getHelpNow</a>  |
-    <a href="#selfCare">selfCare</a>  |
-    <a href="#advice">advice</a>  |
-    <a href="#wellBeingCentre">wellBeingCentre</a>  |
-    <a href="#repeatPrescriptions">repeatPrescriptions</a>  |
-    </br>
+    <a href="#getHelpNow">getHelpNow</a> |
+    <a href="#selfCare">selfCare</a> |
+    <a href="#advice">advice</a> |
+    <a href="#wellBeingCentre">wellBeingCentre</a> |
+    <a href="#repeatPrescriptions">repeatPrescriptions</a> |
     <a id="getHelpNow">The object you want to link to.</a>
-    </br>
     <a id="selfCare">Self Care</a>
-    </br>
     <a id="advice">Advice</a>
-    </br>
     <a id="wellBeingCentre">Well-Being Centre</a>
-    </br>
     <a id="repeatPrescriptions">Repeat Presciptions</a>
-    </br>
-    </br>
 
-    <!-- 11. text that says: How to use Ask My Doc? -->
-    <a href="#howToUseAskMyDoc">How to use Ask My Doc?</a>  |
-    </br>
+    <a href="#howToUseAskMyDoc">How to use Ask My Doc?</a> |
     <a id="howToUseAskMyDoc">
         <!-- 12. video guide on how to use the Ask My Doc service:-->
         <video width="400" controls>
             <source src="https://www.youtube.com/watch?v=sFzCh-HhaWo" type="video/mp4">
         </video>
     </a>
-    </br>
 
-    <!-- 13. see text that says so I know what to do if I have a message or feedback for the surgery: -->
     <p>
-     Need advice or have some feedback for us? Send us a message by filling out the form below and one of our Receptionists will be in touch:
+        Need advice or have some feedback for us? Send us a message by filling out the form below and one of our
+        Receptionists will be in touch:
     </p>
-    </br>
 
-    <!-- 14. form with questions, input fields, checkboxes and a submit button:
-    Are you completing this form on behalf of:  (checkbox),(checkbox)-->
     <form>
-
         <label>
             Yourself
-            <input type="checkbox" id="yourSelf" name="Yourself" >
+            <input type="checkbox" id="yourSelf" name="Yourself">
         </label>
-
-        <label for="someoneElse"> Someone else </label> 
-        <input type="checkbox" id="someoneElse" name="someoneElse" >
-        <br>
-        <br>
-
+        <label for="someoneElse"> Someone else </label>
+        <input type="checkbox" id="someoneElse" name="someoneElse">
         <label for="fname">Enter your First name:</label><br>
-        <input type="text" id="fname" name="fname" ><br>
-    
-    <label for="lname">Enter your Last name:</label><br>
-    <input type="text" id="lname" name="lname" ><br>
-
-    <label for="birthday">Enter your date of Birthday:</label><br>
-    <input type="date" id="birthday" name="birthday"><br>
-
-    <label for="phone">Enter your phone number:</label><br>
-    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
-
-    <label for="email">Enter your email:</label><br>
-    <input type="email" id="email" name="email"><br>
-    <br>
-    <input type="submit" value="Submit"><br>
-    
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Enter your Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="birthday">Enter your date of Birthday:</label><br>
+        <input type="date" id="birthday" name="birthday"><br>
+        <label for="phone">Enter your phone number:</label><br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+        <label for="email">Enter your email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <input type="submit" value="Submit"><br>
     </form>
-    <br>
-    <br>
 
-    <!-- 15. footer with links and a logo:  -->
     <footer>
         <img src="./img/techReturnersSurgeryLogo.PNG" alt="Tech Returners Surgery Logo" width="30" height="34"> |
         <a href="#">Accessibility</a> |
         <a href="#">Privacy</a> |
     </footer>
-    <br>
 
 </body>
-</html>
 
+</html>
